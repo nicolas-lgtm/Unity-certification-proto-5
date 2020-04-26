@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
     public void StartGame(int difficulty)
     {
         isGameActive = true;
-        spawnRate /= difficulty;
+        spawnRate /= (difficulty - .5f);
         StartCoroutine(SpawnTarget());
         scoreTxt.text = "Score: " + score;
         tittleScreen.SetActive(false);

@@ -574,7 +574,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 303512483}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 303512485}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &303512483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -619,7 +630,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 303512480}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69863e3f660d0fd4ab2645a1b3f2806d, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ba1bdd6d0afd3f4a90031ec1feb0c11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   difficulty: 3
@@ -822,6 +833,7 @@ GameObject:
   - component: {fileID: 534669905}
   - component: {fileID: 534669904}
   - component: {fileID: 534669903}
+  - component: {fileID: 534669906}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -893,6 +905,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &534669906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 534669902}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ac3e9b04f67b3488ad025a15f86f59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  memorizeShakeDuration: 0.1
+  shakeAmount: 0.1
+  decreaseFactor: 1
 --- !u!1 &739552428
 GameObject:
   m_ObjectHideFlags: 0
@@ -1552,7 +1579,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1182826979}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1182826981}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1182826979
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1597,7 +1635,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1182826976}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69863e3f660d0fd4ab2645a1b3f2806d, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ba1bdd6d0afd3f4a90031ec1feb0c11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   difficulty: 1
@@ -2355,7 +2393,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2010010424}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2010010426}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &2010010424
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2400,7 +2449,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2010010421}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69863e3f660d0fd4ab2645a1b3f2806d, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ba1bdd6d0afd3f4a90031ec1feb0c11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   difficulty: 2

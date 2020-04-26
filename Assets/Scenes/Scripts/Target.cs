@@ -32,6 +32,7 @@ public class Target : MonoBehaviour
     {
         if (gameManagerScript.isGameActive)
         {
+            GameObject.Find("Main Camera").GetComponent<CameraShake>().enabled = true;
             Destroy(gameObject);
             gameManagerScript.UpdateScore(pointValue);
             Instantiate(explosionParticle, transform.position, transform.rotation);
